@@ -12,7 +12,7 @@
   }
   
   header {
-    background-color: #f5ba13;
+    background-color: #3513f5;
     /* position: absolute;
     text-align: center; */
     position: relative;
@@ -45,7 +45,7 @@
     border-radius: 7px;
     box-shadow: 0 2px 5px #ccc;
     padding: 10px;
-    width: 350px;
+    width: 320px;
     margin: 16px;
     float: left;
   }
@@ -64,7 +64,7 @@
   .note button {
     position: relative;
     bottom: -18px;
-    background: #f5ba13;
+    background: #3513f5;
     color: #fff;
     font-family: inherit;
     float: right;
@@ -100,7 +100,7 @@
     position: absolute;
     right: 18px;
     bottom: -18px;
-    background: #f5ba13;
+    background: #3513f5;
     color: #fff;
     border: none;
     border-radius: 50%;
