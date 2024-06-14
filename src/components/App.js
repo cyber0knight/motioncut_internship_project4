@@ -21,8 +21,8 @@ export default function App() {
     localStorage.setItem('notes', JSON.stringify(notes));
   }, [notes]);
 
-  function addNote() {
-    const newNote = { id: Date.now(), content: 'New Note' };
+  function addNote(newContent) {
+    const newNote = { id: Date.now(), content: newContent };
     setNotes([...notes, newNote]);
   }
 
@@ -35,7 +35,7 @@ export default function App() {
       notes.map(note => (note.id === id ? { ...note, content: newContent } : note))
     );
   }
-  
+
   return (
     <div className='App'>
       <Header />
