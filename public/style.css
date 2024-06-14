@@ -129,9 +129,9 @@
 
 @media (max-width: 480px) {
   form {
-    width: 360px;
+    width: 340px;
   }
   .note-editing {
-    width: 360px;
+    width: 340px;
   }
 }
